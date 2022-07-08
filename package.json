@@ -1,0 +1,13 @@
+{
+  "name": "esbuild",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "esbuild": "^0.14.48",
+    "http-errors": "^2.0.0"
+  },
+  "scripts": {
+    "build": "esbuild --bundle index.ts"
+  }
+}
